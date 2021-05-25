@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-container {
+  display: grid;
+  grid-template-columns: 120px 80px 80px auto;
+  grid-template-rows: 54px;
+  background-color: #353935;
+}
+
+.nav-item {
+  margin: auto;
+  text-decoration-line: none;
+  color: lightgray;
+}
+
+nav a:hover,
+.active {
+  color: white;
+}
+
+nav p {
+  font-size: 20px;
+  user-select: none;
+}
+
+/* Iframe code from: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio*/
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content-container {
+  width: 80%;
+  margin: auto;
+}
+
+.mgt0 {
+  margin-top: 0;
+}
+
+.mgt5 {
+  margin-top: 5%;
+}
+
+.mgt10 {
+  margin-top: 10%;
+}
+
+.mgb0 {
+  margin-bottom: 0;
+}
+
+.mgb5 {
+  margin-bottom: 5%;
+}
+
+.mgb10 {
+  margin-bottom: 10%;
+}
+
+.aboutme-grid {
+  display: grid;
+  grid-template-columns: 60% auto;
+  grid-template-rows: auto;
+  grid-column-gap: 10%;
+}
+
+.aboutme-text-container {
+  grid-column: 1 / 2;
+}
+
+.aboutme-img-container {
+  grid-column: 2 / 3;
+}
+
+.aboutme-img-container img {
+  max-width: 100%;
+  height: auto;
+  text-align: right;
+}
+
+.content-header {
+  font-size: 2.5vw;
+}
+
+.content-text {
+  font-size: 1.5vw;
+  color: #717171;
+}
+
+.cover-container {
+  height: 100vh;
+}
+
+.cover-header {
+  font-size: 5vw;
+}
+
+.cover-text {
+  font-size: 3vw;
+  color: #717171;
+}
+
+.cover-center {
+  padding-top: 40vh;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #717171;
+  font-weight: normal;
+  margin-left: 1%;
+}
+
+.contact-link:hover {
+  color: black;
+}
+
+.contact-text {
+  font-size: 2vw;
+  color: black;
+  font-weight: bold;
+}
+
+footer a {
+  font-size: 1.2vw;
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: #717171;
+}
